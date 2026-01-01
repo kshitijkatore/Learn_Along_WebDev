@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geist Mono", "Geist Mono Fallback";
+}
+
+.layout{
+  height: 100vh;
+  background-color: #09090b;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.root-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 20px 30px;
+  background-color: #09090b;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.left-nav{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.logo-name{
+  color: white;
+  font-weight: 600;
+}
+
+.right-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.links{
+  display: flex;
+  gap: 25px;
+}
+
+.link-items{
+  color: #686870;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.line{
+  width: 0.4px;
+  height: 15px;
+  background-color: #686870;
+}
+.social-icons{
+  display: flex;
+  gap: 15px;
+}
+.github img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.twitter img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.discord img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+button{
+  font-size: 12px;
+  background-color: #fe750e;
+  color: black;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.hero-root{
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 80px;
+  gap: 8px;
+}
+
+.dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color:#fe750e;
+}
+
+.side-title{
+  font-size: 14px;
+  color:#fe750e;
+}
+
+.heading{
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  h1{
+    span{
+      color: #fe750e;
+    }
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: -5px;
+    line-height: 1;
+  }
+}
+
+.sub-heading{
+  margin:0px auto;
+  margin-bottom: 60px;
+  max-width: 600px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  span{
+    color: white;
+  }
+  color: #5a5a62;
+}
+
